@@ -102,6 +102,9 @@ body {
   color: #222429;
 }
 /* section-title */
+#team-staff {
+  padding-top: 150px;
+}
 .section-title span.span {
   text-transform: uppercase;
   font-weight: 500;
@@ -1791,7 +1794,7 @@ header .container-fluid {
   bottom: 20px;
 }
 .team-area-v2 {
-  padding-top: 350px;
+  padding-top: 200px;
   background-color: #f0f4f9;
 }
 .team-area-v2 .single-team-member .team-img {
