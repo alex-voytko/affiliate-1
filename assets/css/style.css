@@ -3600,8 +3600,8 @@ textarea {
 .contact-information-area .contact-info-item .info p a:hover {
   color: #ffaa17;
 }
-.work-process .container {
-  margin-bottom: 110px;
+.work-process .container:last-child {
+  padding-top: 110px;
 }
 .work-process .contact-form .form_control {
   border: 1px solid #e3e3e3;
@@ -3879,7 +3879,7 @@ textarea {
 }
 /* footer-area-v2 */
 .footer-area-v2 {
-  background-color: #ffaa17;
+  background-color: #fff;
   padding: 45px 0px 50px;
 }
 .footer-area-v2 .social-media-links {
@@ -3908,11 +3908,13 @@ textarea {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-.footer-area-v2 .social-media-links ul li a:hover,
-.footer-area-v2 .social-media-links ul li a:focus {
-  background-color: #1c1e22;
-  color: #fff;
+.footer-area-v2 .social-media-links ul li a:hover .icon,
+.footer-area-v2 .social-media-links ul li a:focus .icon {
+  --color1: #232323;
+  --color2: #ffaa17;
 }
+
+/* .footer-area-v2 .social-media-links */
 /* End Footer area */
 
 /* Modal */
