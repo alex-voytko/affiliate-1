@@ -1,10 +1,14 @@
 /*Large Device*/
-@media only screen and (min-width: 1200px) and (max-width: 1870px) {
+@media only screen and (min-width: 1200px) {
   header .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 0;
     padding-bottom: 0;
+  }
+  .header-area-v2 .brand-logo svg {
+    width: 180px;
+    height: 100px;
   }
   .header-area-v1 .header-navigation .navigation-area .top-header-area,
   .header-area-v1 .header-navigation .navigation-area .primary-menu {
@@ -23,10 +27,23 @@
   .header-area-v2 .header-right ul li .search-btn {
     padding: 43px 20px;
   }
+  .testimonial-area-v2 .feedback-slide {
+    min-width: 550px;
+    height: 320px;
+    border: 1px solid #686a6f54;
+  }
+  .footer-area-v2 .datapro_logo svg {
+    width: 210px;
+    height: 100px;
+  }
 }
 
 /*Large Device*/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-area-v2 .brand-logo svg {
+    width: 180px;
+    height: 80px;
+  }
   .header-navigation .main-menu ul li.menu-item-has-children > a:after {
     display: none;
   }
@@ -96,10 +113,23 @@
   .about-area-v3 .about-img-box .shape {
     right: -10px;
   }
+  .testimonial-area-v2 .feedback-slide {
+    min-width: 550px;
+    height: 320px;
+    border: 1px solid #686a6f54;
+  }
+  .footer-area-v2 .datapro_logo svg {
+    width: 180px;
+    height: 80px;
+  }
 }
 
 /*Medium Device*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header-area-v2 .brand-logo svg {
+    width: 180px;
+    height: 80px;
+  }
   .hero-content h1 {
     font-size: 34px;
     line-height: 44px;
@@ -117,6 +147,10 @@
   }
   .service-area #marketing-item {
     height: 100%;
+  }
+  .footer-area-v2 .datapro_logo svg {
+    width: 180px;
+    height: 80px;
   }
 }
 
@@ -190,16 +224,22 @@
   .blog-area-v2 .blog-post-item .post-thumbnail img {
     width: 100%;
   }
-  .testimonial-area-v3 .testimonial-thumb-slider {
-    padding-right: 0px;
-  }
   .contact-area-v2 .contact-wrapper {
     padding: 50px 30px 55px;
+  }
+  .testimonial-area-v2 .feedback-slide {
+    min-width: 400px;
+    height: 100%;
+    border: none;
   }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
+  .header-area-v2 .brand-logo svg {
+    width: 170px;
+    height: 80px;
+  }
   .header-area-v2 .header-right ul li.phon-column {
     display: none;
   }
@@ -277,19 +317,6 @@
   .about-area-v3 .about-img-box:after {
     display: none;
   }
-  .testimonial-area-v3
-    .testimonial-item
-    .testimonial-content
-    .author-title-info {
-    flex-direction: column;
-    align-items: flex-start !important;
-  }
-  .testimonial-area-v3 .testimonial-item .testimonial-content .author-title {
-    margin-right: 0px;
-  }
-  .testimonial-area-v3 .testimonial-item .testimonial-content .author-social {
-    margin-top: 20px;
-  }
   .breadcrumbs-area {
     padding: 130px 0 60px;
   }
@@ -312,18 +339,28 @@
     text-align: center;
     margin-top: 20px;
   }
-  .testimonial-area-v2 .single-testimonial .testimonial-innter-content {
-    flex-direction: column;
-  }
-  .testimonial-area-v2 .single-testimonial .thumb {
+  .testimonial-area-v2 .feedback-slide .thumb {
     margin-bottom: 20px;
   }
   .team-area-v2 .team-img {
     width: 240px;
   }
+  .testimonial-area-v2 .feedback-slide {
+    min-width: 330px;
+    height: 100%;
+    border: none;
+  }
+  .footer-area-v2 .datapro_logo svg {
+    width: 150px;
+    height: 50px;
+  }
 }
 /* Mobile Devices, Tablets */
 @media only screen and (max-width: 413px) {
+  .header-area-v2 .brand-logo svg {
+    width: 150px;
+    height: 50px;
+  }
   .clients-img-box .clients-imgs li {
     max-width: 50%;
     flex: 50%;
@@ -343,5 +380,14 @@
   }
   .service-area .single-service-item .icon {
     margin-bottom: 20px;
+  }
+  .testimonial-area-v2 .feedback-slide {
+    min-width: 275px;
+    height: 505px;
+    border: none;
+  }
+  .footer-area-v2 .datapro_logo svg {
+    width: 150px;
+    height: 50px;
   }
 }
