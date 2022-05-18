@@ -165,74 +165,7 @@ body {
     max-width: 1200px;
   }
 }
-/*
-    search 
-*/
-#search-modal {
-  background: rgba(23, 26, 33, 0.85);
-}
-#search-modal .modal-dialog {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  border: none;
-  outline: 0;
-}
-#search-modal form {
-  width: 555px;
-  position: relative;
-}
-#search-modal .modal-content {
-  background: 0 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: none;
-}
-#search-modal .modal-content:focus {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-#search-modal .form_control {
-  padding-left: 0;
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #e5e5e5;
-  color: #fff;
-  margin-bottom: 0;
-  height: 50px;
-}
-#search-modal .form_control:focus {
-  border-color: #d00b2b;
-}
-#search-modal .form_control::-webkit-input-placeholder {
-  color: #fff;
-}
-#search-modal .form_control::-moz-placeholder {
-  color: #fff;
-}
-#search-modal .form_control:-ms-input-placeholder {
-  color: #fff;
-}
-#search-modal .form_control::-ms-input-placeholder {
-  color: #fff;
-}
-#search-modal .form_control::placeholder {
-  color: #fff;
-}
-#search-modal .search_btn {
-  position: absolute;
-  background: transparent;
-  top: 10px;
-  right: 10px;
-  color: #fff;
-}
 
-/*
-    Start Preloader css
-*/
 .preloader {
   background-color: #fff;
   bottom: 0;
@@ -735,7 +668,6 @@ header .container-fluid {
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  border-right: 2px solid #f0f4f9;
 }
 .header-area-v1 .header-navigation .main-menu ul li:first-child .nav-link,
 .header-area-v2 .header-navigation .main-menu ul li:first-child .nav-link {
@@ -798,7 +730,10 @@ header .container-fluid {
 }
 .header-area-v2 .header-right ul li {
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 40px;
+}
+.header-area-v2 .header-right #burger-menu-bar {
+  margin-left: 40px;
 }
 .header-area-v2 .header-right ul li a.phone-btn {
   display: -webkit-box;
@@ -883,6 +818,7 @@ header .container-fluid {
   visibility: visible;
   opacity: 1;
   margin-right: 0;
+  overflow-y: hidden;
 }
 .offcanvas-panel .offcanvas-panel-inner {
   max-width: 400px;
@@ -2648,6 +2584,9 @@ header .container-fluid {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+.testimonial-area-v2 .slick-track:hover {
+  cursor: grab;
 }
 .testimonial-area-v2 .single-testimonial .testimonial-content p {
   color: #565872;
